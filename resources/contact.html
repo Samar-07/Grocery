@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>
+            
+            Contact Form
+        
+        </title>
+
+        <link rel="stylesheet" href="contact.css">
+        <link rel ="icon" href="\images\logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        
+        <link rel="shortcut icon" type="image/jpg" href="C:\Users\hp\Desktop\College\First Semester\Introduction To Web Technologies\Notepad ++ Files\Project\favicon.ico"/>
+
+        <script src="contact.js"></script>
+
+    </head>
+
+    <body>
+        <nav class="navigation">
+
+            
+            <a href="#" class="logo">
+    
+                <span>KIR</span>AANA
+    
+            </a>
+    
+            
+            
+    
+            <label for="menu-btn" class="menu-icon">
+    
+                <span class="nav-icon"></span>
+    
+            </label>
+    
+            
+            <ul class="menu">
+    
+                <li>
+                    <a href="home.html" class="active">
+                        
+                        Home
+    
+                    </a>
+                
+                </li>
+    
+                <li>
+    
+                    <a href="#category">
+    
+                        Categories
+                    
+                    </a>
+                
+                </li>
+    
+                <li>
+                    
+                    <a href="contact.html">
+                        
+                        Contact&nbsp;Us
+                    
+                    </a>
+                
+                </li>
+                
+            
+                
+                <li>
+    
+                    <a href="aboutus.html">
+    
+                        About&nbsp;us
+    
+                    </a>
+    
+                </li>
+    
+                
+                <li>
+                    
+                    <a href="login.html">
+                            
+                        Sign&nbsp;up
+                        
+                    </a>
+                    
+                </li>
+    
+                
+                
+    
+                </ul>
+                
+    
+            <div class="right-nav">
+    
+                <form action="" class="search-box">
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search" name="search" required>
+                        <button type="submit" class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+    
+                <a href="cart.html" class="cart">
+    
+                    <i class="fas fa-shopping-cart"></i>
+    
+                </a>
+    
+                <a href="profile.html" class="user-profile">
+    
+                    <i class="fas fa-user"></i>
+    
+                </a>
+                
+                
+            </div>
+    
+        </nav>
+
+        <div class="wrapper">
+            <div class="contact-map">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6817.011299462022!2d85.31756126269663!3d27.66147583051549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19d586706173%3A0x9bd0b399b3068937!2sShovahiti%20Nakkhudol%20Marg%2C%20Lalitpur%2044700!5e0!3m2!1sen!2snp!4v1690457645642!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <h1 align="center">
+                Our Location
+            </h1>
+            <h2 align = 'center'>
+               
+                Contact Form
+        
+            </h2>
+
+            <div id="error_message"></div>
+
+            <form id="myform" onsubmit="return validate();">
+
+                <div class="input_field">
+
+                    <input type="text" placeholder="Name" id="name">
+
+                </div>
+
+                <div class="input_field">
+
+                    <input type="text" placeholder="Subject" id="subject">
+
+                </div>
+
+                <div class="input_field">
+
+                    <input type="text" placeholder="Phone" id="phone">
+
+                </div>
+
+                <div class="input_field">
+
+                    <input type="text" placeholder="Email" id="email">
+
+                </div>
+
+                <div class="input_field">
+
+                    <textarea placeholder="Message" id="message"></textarea>
+
+                </div>
+
+                <button type="submit" class="btn">
+                    
+                    <a href="home.html" style = 'color: red; text-decoration: none;'>
+                        
+                        Submit
+                    
+                    </a>
+                
+                </button>
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
