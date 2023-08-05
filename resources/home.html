@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <script src="https://kit.fontawesome.com/83bec30700.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel ="icon" href="\images\logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = 'home.js' defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav class="navigation">
+
+            
+        <a href="#" class="logo">
+
+            <span>KIR</span>AANA
+
+        </a>
+
+        
+        
+
+        <label for="menu-btn" class="menu-icon">
+
+            <span class="nav-icon"></span>
+
+        </label>
+
+        
+        <ul class="menu">
+
+            <li>
+                <a href="home.html" class="active">
+                    
+                    Home
+
+                </a>
+            
+            </li>
+
+            <li>
+
+                <a href="#category">
+
+                    Categories
+                
+                </a>
+            
+            </li>
+
+            <li>
+                
+                <a href="contact.html">
+                    
+                    Contact&nbsp;Us
+                
+                </a>
+            
+            </li>
+            
+        
+            
+            <li>
+
+                <a href="aboutus.html">
+
+                    About&nbsp;us
+
+                </a>
+
+            </li>
+
+            
+            <li>
+                
+                <a href="login.html">
+                        
+                    Sign&nbsp;up
+                    
+                </a>
+                
+            </li>
+
+            
+            
+
+            </ul>
+            
+
+        <div class="right-nav">
+
+            <form action="" class="search-box">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search" name="search" required>
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+
+            <a href="cart.html" class="cart">
+
+                <i class="fas fa-shopping-cart"></i>
+
+            </a>
+
+            <a href="profile.html" class="user-profile">
+
+                <i class="fas fa-user"></i>
+
+            </a>
+            
+            
+        </div>
+
+    </nav>
+    <div class ="container">
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+              
+              <div class="swiper-slide"><img src="\images\1.jpg" alt="Image 1"></div>
+              <div class="swiper-slide"><img src="\images\2.jpg" alt="Image 1"></div>
+              <div class="swiper-slide"><img src="\images\3.jpg" alt="Image 1"></div>
+              <div class="swiper-slide"><img src="\images\4.jpg" alt="Image 1"></div>
+              ...
+            </div>
+            
+            <div class="swiper-pagination"></div>
+          
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            
+          </div>
+    </div>
+    <section id="category">
+
+            
+        <div class="category-heading">
+
+            <h2>
+                
+                Category
+            
+            </h2>
+
+            <span>
+                
+                All
+            
+            </span>
+
+        </div>
+
+       
+        <div class="category-container">
+
+            
+            <a class="category-box" href = 'fruits.html'>
+                <img alt="Fruits and Vegetables" src="\images\fruits.png">
+                <span>Fruits & <br> Vegetables</span>
+            </a>
+            <a class="category-box" href = 'medicine.html'>
+                <img alt="Medicine and Health" src="\images\medicine.png">
+                <span>Medicine & <br> Health</span>
+                </a>
+                <a class="category-box" href = 'beauty.html'>
+                    <img alt="Beauty Products" src="\images\beauty.png">
+                    <span>Beauty Products</span></a>
+           <a class="category-box" href= "">
+            <img alt="Grocery and Retails" src="\images\grocery.jpeg">
+            <span>Grocery &<br> Retails</span>
+           </a>
+        </div>     
+    </section>
+    <section id="popular-bundle-pack">
+        <div class="product-heading">
+            <h3>Nepali Product</h3>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <a href="product.html">
+                <img alt="apple" src="\images\current.webp">
+                <strong>Mad Honey</strong>
+                <span class="price">Rs. 555</span>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>                   
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="\images\tasty.jpg">
+                <strong>Himalayan Rakura Tea</strong>
+                <span class="price">Rs. 430</span>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div> 
+            <div class="product-box">
+                <img alt="apple" src="\images\kha.jpg">
+                <strong>Aama ko achar (Pickle)</strong>
+                <span class="price">Rs. 300</span>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="pack" src="\images\tokla.jpg">
+                <strong>Nepali Gundruk</strong>
+                <span class="price">Rs. 500</span>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>    
+            <div class="product-box">
+                <img alt="apple" src="\images\gyan.jpeg">
+                <strong>Local Chickpeas</strong>
+                
+                <span class="price">Rs. 130</span>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+              <div class="product-box">
+                <img alt="pack" src="\images\waiwai.jpg">
+                <strong>Wai Wai</strong>
+                <span class="price">Rs. 20</span>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section> 
+    <section id="popular-product">
+            
+        <div class="product-heading">
+            <h3>Organic Products</h3>
+            <span>All</span>
+        </div>
+        
+        <div class="product-container">
+            
+            <div class="product-box">
+               
+                <img alt="apple" src="\images\apple.webp">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 100</span>
+            
+                <a href="cart.html" class="cart-btn">
+                    <i class="fa fa-shopping-bag"></i> Add to Cart
+                </a>
+                
+                <a class="like-btn">
+                    <i class="fa fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="chili" src="\images\chilli.jpeg">
+                <strong>Chili</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 80</span>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fa fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="fa fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="\images\onion.jpeg">
+                <strong>Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 50</span>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fa fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="fa fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="\images\potato.jpeg">
+                <strong>Potato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 60</span>
+
+                <a href="cart.html" class="cart-btn">
+                    <i class="fa fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="fa fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="\images\garlic.jpeg">
+                <strong>Garlic</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 50</span>
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="fa fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="\images\tomato.jpeg">
+                <strong>Tomato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 80</span>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fa fa-shopping-bag"></i> Add to Cart
+                </a>
+                <a class="like-btn">
+                    <i class="fa fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <h2 class = 'sale-heading'>
+
+        बिजया दशमी sales will be live on 
+
+    </h2>
+
+    <div class="countdown-container">
+
+        <div class="countdown-el days-c">
+            <p class="big-text" id="days">0</p>
+            <span>Days</span>
+        </div>
+        <div class="countdown-el hours-c">
+            <p class="big-text" id="hours">0</p>
+            <span>Hours</span>
+        </div>
+        <div class="countdown-el mins-c">
+            <p class="big-text" id="mins">0</p>
+            <span>Min</span>
+        </div>
+        <div class="countdown-el seconds-c">
+            <p class="big-text" id="seconds">0</p>
+            <span>Seconds</span>
+        </div>
+    </div> 
+    <section id="partner">
+        <div class="partner-heading">
+            <h3>Our Payment Partner</h3>
+        </div>
+        <div class="logo-container">
+            <img alt="logo" src="\images\esewa.png">
+            <img alt="logo" src="\images\khalti.jpeg">
+            <img alt="logo" src="\images\imepay.png">
+            <img alt="logo" src="\images\connect.jpeg">
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            
+            <div class="footer-logo">
+                <a href=""><span>KIR</span>AANA</a>
+                
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=en-in"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        <div class="footer-links">
+            <strong>Product</strong>
+            <ul>
+                <li><a href="#">Grocery</a></li>
+                <li><a href="#">Nepali Products</a></li>
+                <li><a href="#">Organic</a></li>
+                <li><a href="#">New</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <strong>Category</strong>
+          <ul>
+            <li><a href="#">Fruits & Vegetables</a></li>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Medicine</a></li>
+            <li><a href="#">Grocery</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+            <strong>Contact</strong>
+            <ul>
+                <li><a href="#">Phone : +977-9821345678</a></li>
+                <li><a href="#">Email : NepaliKirana@gmail.com</a></li>
+                
+            </ul>
+            <br><p style="color: aliceblue;">Copyright ©2023 | All Rights Reserved</p>
+        </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+ const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+  loop: true,
+
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true, 
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+
+});
+    </script>
+</body>
+</body>
+</html>

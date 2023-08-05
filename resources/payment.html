@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel ="icon" href="\images\logo.png">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details</title>
+</head>
+<body>
+    <nav class="navigation">
+
+            
+        <a href="#" class="logo">
+    
+            <span>KIR</span>AANA
+    
+        </a>
+        <label for="menu-btn" class="menu-icon">
+    
+            <span class="nav-icon"></span>
+    
+        </label>
+        <ul class="menu">
+    
+            <li>
+                <a href="home.html" class="active">
+                    
+                    Home
+    
+                </a>
+            
+            </li>
+    
+            <li>
+    
+                <a href="#category">
+    
+                    Categories
+                
+                </a>
+            
+            </li>
+    
+            <li>
+                
+                <a href="contact.html">
+                    
+                    Contact&nbsp;Us
+                
+                </a>           
+            </li>       
+                       <li>   
+                <a href="aboutus.html">
+    
+                    About&nbsp;us   
+                </a>   
+            </li>            
+            <li>              
+                <a href="login.html">                       
+                    Sign&nbsp;up                  
+                </a>    
+            </li>
+            </ul>
+        <div class="right-nav">
+            <form action="" class="search-box">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search" name="search" required>
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+            <a href="cart.html" class="cart">
+               <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="profile.html" class="user-profile">
+                <i class="fas fa-user"></i>
+            </a>    
+        </div>
+    </nav>
+    <div class="container">
+        <h2>Payment Options</h2>
+        <div class="payment-option">
+          <input type="radio" id="cashOnDelivery" name="paymentMethod" value="cash">
+          <label for="cashOnDelivery">Cash on Delivery</label>
+        </div>
+        <div class="payment-option">
+          <input type="radio" id="onlinePayment" name="paymentMethod" value="online" checked>
+          <label for="onlinePayment">Online Payment</label>
+        </div>
+        <a href="thankyou.html">
+        <button class="confirm-button" onclick="confirmPayment()">Confirm Payment</button>
+    </a>
+      </div>
+      
+      <script>
+      function confirmPayment() {
+        const selectedPaymentOption = document.querySelector('input[name="paymentMethod"]:checked').value;
+        if (selectedPaymentOption === 'cash') {
+          alert('Thank you! Your order will be delivered, and you can pay in cash upon delivery.');
+        } else if (selectedPaymentOption === 'online') {
+          alert('You will be redirected to the online payment gateway to complete the transaction.');
+          
+        } else {
+          alert('Please select a payment option.');
+        }
+      }
+      </script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard - KIRAANA</title>
+    <link rel ="icon" href="\images\logo.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <div class="logo-icon">
+          <img alt="logo" src="\images\logo.png" width="50px">
+        </div>
+        <span>KIR</span>AANA
+      </div>
+
+      <div class="menu-items">
+        <ul class="nav-links">
+          <li>
+            <a href="#">
+              <i class="fab fa-microsoft"></i>
+              <span class="link-name">Dahsboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span class="link-name">Prodcut List</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-plus"></i>
+              <span class="link-name">Add products</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-user"></i>
+              <span class="link-name">User Details</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-square-check"></i>
+              <span class="link-name">Reviews</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fas fa-sack-dollar"></i>
+              <span class="link-name">Net Sales</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="logout-mode">
+          <li>
+            <a href="adminlogin.html">
+              <i class="fas fa-right-to-bracket"></i>
+              <span class="link-name">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="dashboard">
+      <div class="top">
+        <i class="fas fa-bars sidebar-toggle"></i>
+
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search..." />
+        </div>
+
+        <img src="\images\profile.jpg" alt="" />
+      </div>
+
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <i class="fas fa-gauge"></i>
+            <span class="text">Overview</span>
+          </div>
+
+          <div class="boxes">
+            <div class="box box1">
+              <i class="fas fa-user"></i>
+              <span class="text">Logins</span>
+              <span class="number">3000</span>
+            </div>
+            <div class="box box2">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="text">Items</span>
+              <span class="number">69</span>
+            </div>
+            <div class="box box3">
+              <i class="fa-solid fa-sack-dollar"></i>
+              <span class="text">Total Sales</span>
+              <span class="number">69K</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity">
+          <div class="title">
+            <i class="fas fa-clock"></i>
+            <span class="text">Recent Sales</span>
+          </div>
+
+          <div class="activity-data">
+            <div class="data names">
+              <span class="data-title">Buyers Name</span>
+              <br>
+              <span class="data-title">Samir Wagle</span>
+            </div>
+            <div class="data email">
+              <span class="data-title">Email</span>
+              <br>
+              <span class="data-title">samirwagle@gmai.com</span>
+            </div>
+            <div class="data subscriber">
+              <span class="data-title">Items</span>
+              <br>
+              <span class="data-title">Durex Condom</span>
+            </div>
+            <div class="data subscriber">
+              <span class="data-title">Units</span>
+              <br>
+              <span class="data-title">4</span>
+            </div>
+            <div class="data type">
+              <span class="data-title">Amount</span>
+              <br>
+              <span class="data-title">400</span>
+            </div>
+            <div class="data joined">
+              <span class="data-title">Payment Method</span>
+              <br>
+              <span class="data-title">Online</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="admin.js"></script>
+  </body>
+</html>
